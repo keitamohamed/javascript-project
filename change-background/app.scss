@@ -1,0 +1,103 @@
+$font-family: 'Ibarra Real Nova', serif;
+$cormorant: 'Cormorant Garamond', serif;
+$vollkorn: 'Vollkorn', serif;
+$icon-font: FontAwesome, serif;
+
+$color-black: #000;
+$color-white: #FFF;
+
+$box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  outline: 0;
+  border: none;
+}
+
+body {
+  background: #F1F5F8;
+}
+
+header {
+  background: #FFF;
+  min-height: 65px;
+  padding-top: 15px;
+  z-index: 10;
+  box-shadow: $box-shadow;
+
+  .flex-wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  .app_title_container {
+    width: 100%;
+
+    h2 {
+      width: 100%;
+      letter-spacing: .1em;
+      font-family: $cormorant;
+    }
+  }
+
+  ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+      width: 100%;
+      font-size: 25px;
+      font-family: $cormorant;
+
+      &:first-child {
+        text-align: right;
+      }
+
+      a {
+        list-style: none;
+        text-underline: none;
+        text-decoration: none;
+        color: #000;
+        font-size: inherit;
+        font-family: inherit;
+      }
+    }
+  }
+}
+
+main {
+  min-height: calc(100vh - 1rem);
+  place-items: center;
+  display: grid;
+
+  .container-fluid {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+
+    .app_background {
+      background: $color-black;
+      color: $color-white;
+      width: 100%;
+      border-radius: 20px;
+      padding: 1em;
+      margin-bottom: 2.5em;
+    }
+
+    .btn-change-color {
+      text-align: center;
+      background: transparent;
+      text-transform: uppercase;
+      border: 1px solid $color-black;
+      padding: .75em 1.25em;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  }
+}

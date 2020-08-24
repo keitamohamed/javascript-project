@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F1F5F8;
+}
+
+main {
+    place-items: center;
+    display: grid;
+}
+
+main .app_container_fluid {
+    width: 100%;
+}
+
+main .app_container_fluid .app_article_review {
+    width: 70% !important;
+    margin: auto;
+    font-family: "Cormorant Garamond", serif;
+    text-align: center;
+    background: #FFF;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s linear;
+}
+
+main .app_container_fluid .app_article_review .image_container {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto 2em;
+}
+
+main .app_container_fluid .app_article_review .image_container #person_img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+main .app_container_fluid .app_article_review h4, main .app_container_fluid .app_article_review h5 {
+    font-family: inherit;
+    font-size: 20px;
+}
+
+main .app_container_fluid .app_article_review h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #2b9ce2;
+    margin-top: 0.5em;
+}
+
+/*# sourceMappingURL=app.css.map */

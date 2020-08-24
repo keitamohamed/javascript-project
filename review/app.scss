@@ -1,0 +1,73 @@
+$cormorant: 'Cormorant Garamond', serif;
+$vollkorn: 'Vollkorn', serif;
+$icon-font: "Font Awesome 5 Free";
+
+$color-black: #000;
+$color-white: #FFF;
+$color-blue: #2b9ce2;
+
+$box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F1F5F8;
+}
+
+main {
+  //min-height: calc(100vh - 0rem);
+  place-items: center;
+  display: grid;
+
+  .app_container_fluid {
+    width: 100%;
+
+    .app_article_review {
+      width: 70% !important;
+      margin: auto;
+      font-family: $cormorant;
+      text-align: center;
+
+      background: $color-white;
+      padding: 1.5rem 2rem;
+      border-radius: 0.25rem;
+      box-shadow: $box-shadow;
+      transition: all 0.3s linear;
+
+      .image_container {
+        position: relative;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        margin: 0 auto 2em;
+
+        #person_img {
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+          position: relative;
+        }
+      }
+
+      h4, h5 {
+        font-family: inherit;
+        font-size: 20px;
+      }
+
+      h5 {
+        text-transform: uppercase;
+        font-size: 18px;
+        color: $color-blue;
+        margin-top: .5em;
+      }
+    }
+
+    .app_button_container {
+      .next-btn {
+      }
+    }
+  }
+}

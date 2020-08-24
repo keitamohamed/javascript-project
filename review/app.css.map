@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "app.scss"
+  ],
+  "names": [],
+  "mappings": "AAUA;EACE;EACA;;;AAGF;EACE;;;AAGF;EAEE;EACA;;AAEA;EACE;;AAEA;EACE;EACA;EACA,aA9BM;EA+BN;EAEA,YA5BQ;EA6BR;EACA;EACA,YA5BO;EA6BP;;AAEA;EACE;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;;AAIJ;EACE;EACA;;AAGF;EACE;EACA;EACA,OAxDK;EAyDL",
+  "file": "app.css"
+}
